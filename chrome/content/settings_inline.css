@@ -5,6 +5,7 @@ body {
     margin:0;
     padding:0;
     overflow:auto;
+    min-width: 350px;
 }
 form {
     margin:0;
@@ -40,4 +41,8 @@ form fieldset div {
     margin: 5px 0 5px 0;
     display:block;
     position:relative;
+}
+#speed {
+    width: auto;
+    min-width: 50px;
 }

@@ -1,6 +1,3 @@
-console.log(chrome.storage);
-
-
 function validate() {
 	return document.getElementById("speed").checkValidity();
 }
