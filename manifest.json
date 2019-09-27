@@ -4,7 +4,7 @@
 	"name": "YouTube Turbo Button",
 	"short_name": "YT Turbo Button",
 	"description": "Sets the video playback speed to a specified amount.",
-	"version": "0.1.2",
+	"version": "0.1.4",
 	"author": "Christian Sdunek",
 
 	"applications": {
