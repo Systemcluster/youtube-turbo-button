@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+    <title>YouTube Turbo Button Configuration</title>
+    <meta charset="utf-8">
+    <style>
+        @import url("/chrome/content/settings_inline.css");
+    </style>
+</head>
+
+<body>
+    <form id="settings_form" onsubmit="event.preventDefault();return false;">
+        <legend>Settings</legend>
+        <fieldset>
+            <div>
+            <input type="number" name="speed" id="speed" min="0.05" max="10" step="0.05" style="width:3rem;" placeholder="1.8" required>
+                Playback speed to set on button press
+            </div>
+            <div>&nbsp;</div>
+            <div>
+                <input type="button" id="save" value="Save">
+                <input type="button" id="cancel" value="Cancel">
+            </div>
+
+        </fieldset>
+        <input type="submit" style="display:none;" id="submit">
+    </form>
+    <script src="/chrome/content/settings.js"></script>
+</body>
+
+</html>
